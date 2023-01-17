@@ -1,0 +1,11 @@
+Assignment name  : ft_rev_print
+Expected files   : ft_rev_print.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+Write a function called ft_rev_print that takes a string, and displays the string in reverse
+followed by a newline.
+
+Your function must be declared as follows:
+
+char *ft_rev_print(char *str);

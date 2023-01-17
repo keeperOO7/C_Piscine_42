@@ -1,0 +1,12 @@
+Assignment name  : ft_strrepl
+Expected files   : ft_strrepl.c
+Allowed functions: write, exit
+--------------------------------------------------------------------------------
+
+Write a function called ft_strrepl that takes a string, the string in which to replace a letter (char a) by
+another one (char b).
+
+
+Your function must be declared as follows:
+
+void	ft_strrepl(char *str, char a, char b);

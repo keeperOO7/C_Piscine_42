@@ -1,0 +1,55 @@
+Assignment name  : buzzfizz
+Expected files   : buzzfizz.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+Write a program that prints the numbers from 1 to 100, each separated by a
+newline.
+
+If the number is a multiple of 4, it prints 'fizz' instead.
+
+If the number is a multiple of 7, it prints 'buzz' instead.
+
+If the number is both a multiple of 4 and a multiple of 7, it prints 'buzzfizz' instead.
+
+Example:
+
+$>./buzzfizz
+1
+2
+3
+fizz
+5
+6
+buzz
+fizz
+9
+10
+11
+fizz
+13
+buzz
+15
+fizz
+17
+18
+19
+fizz
+buzz
+22
+23
+fizz
+25
+26
+27
+fizzbuzz
+[...]
+93
+94
+95
+fizz
+97
+buzz
+99
+fizz
+$>
