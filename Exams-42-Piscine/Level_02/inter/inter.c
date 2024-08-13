@@ -13,10 +13,10 @@ int main(int ac, char **av)
             j = 0;
             while (av[2][j])
             {
-                if (av[2][j] == av[1][i] && printed[av[1][i]] == 0)
+                if (av[2][j] == av[1][i] && printed[(int)av[1][i]] == 0)
                 {
                     write(1, &av[1][i], 1);
-                    printed[av[1][i]] = 1;
+                    printed[(int)av[1][i]] = 1;
                 }
                 j++;
             }
